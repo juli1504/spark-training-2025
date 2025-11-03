@@ -132,7 +132,7 @@ services:
       - shared-workspace:/opt/workspace
       - ./local:/opt/workspace/local/
   spark-master:
-    image: spark-master:3.0.0
+    image: janez87/spark-master
     container_name: spark-master
     ports:
       - 8080:8080
